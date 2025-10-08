@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Contact & Feedback</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+body {background-color: blue;}
+</style>
+</head>
+<body>
+<header>
+<h1>Contact & Feedback</h1>
+<nav>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="Clothing.html">Clothing</a></li>
+<li><a href="Music _Dance.html">Music & Dance</a></li>
+<li><a href="Crafts.html">Crafts & Art</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<form class="contact-form"><br>
+<fieldset>
+<legend>contact menu</legend>
+<label>Name:<br/>
+<input type="text" id="name" name="name" required><br>
+<label>Surname:<br/>
+<input type="text" name="surname"/></label><br/>
+<label>Email:<br/>
+<input type="text" name="email"/></label><br/>
+<label>Message:<br/>
+<textarea id="message" name="message" cols="20" rows="5" required>Enter your message...</textarea><br/>
+<label for="topic">Topic of Interest</label>
+<select name="topic" id="topic">
+<option value="">--select topic--</option>
+<optio value="Clothing">Clothing</option>
+<option value="dance">Dance</option>
+<option value="crafts">Crafts</option>
+<option value="history">History</option>
+</selection>
+<input type="text" name="Topic Of Interest" minlength="5" maxlength="15" required></label><br/>
+<button type="submit" class="hover-button">Submit</button>
+</fieldset>
+</form>
+</main>
+</body>
+</html>

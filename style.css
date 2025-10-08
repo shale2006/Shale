@@ -1,0 +1,259 @@
+body{
+ font-family: Arial, sans-serif;
+background-color:#f4f4f4;
+margin: 0;
+padding: 0;
+font-size: 1 6px;
+}
+nav ul{
+background-color: #003366;
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+nav ul li{
+margin: 0 20px;
+}
+nav ul li a {
+color: blue;
+text-decoration: none;
+font-weight: bold;
+}
+.hero{
+text-align: center;
+padding: 40px;
+background-color: blue;
+}
+.hero img{
+width: 400;
+max-width: 600px;
+margin-top: 20px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+.gallary img: hover{
+transform: scale(1.05);
+box-shadow:  0 8px 20px rgba(0,0,0,0.3);
+cursor: pointer;
+}
+
+}
+h2{
+text-align: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start; 
+}
+
+.gallery img{
+	width: 400px;
+    border-radius: 100px;
+}
+
+
+
+.contact-form{
+max-width: 600px;
+margin: auto;
+background: blue;
+padding: 2rem;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-form label{
+display: block;
+margin-top:1rem;
+font-size: bold;}
+.contact-form input,
+.contact-form textarea{
+width: 100%;
+padding: 0.7rem;
+margin-top: 0.3rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1rem;
+}
+.contact-form input: focus,
+.contact-form textarea: focus{
+border-color:#003366:
+outline: none;
+background-color:#f0f8ff;
+}
+.contact-form input{
+margin-top: 1.5rem;
+padding: 0.8rem 1.5rem;
+background-color: #003366;
+color:blue;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.contact-form input: hover{
+background-color: #0055aa;
+}
+
+.colonm1{
+float: left;
+width: 500px;
+}
+.colonm2{
+float: left;
+width: 600px;
+}
+.header{
+background:#003366;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+main.crafts-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+padding: 2rem;
+}
+.hover-img{
+	transition: transform 0 .3s ease,
+	box-shadow 0 .3s ease;
+	border-radius: 1 0px;
+}
+.hover-img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 1 0px rgba(0,0,0,0.4)
+}
+ul{
+list-style: none;
+display: flex;
+gap: 20px;
+padding: 0;
+}
+li{
+display: inline;
+}
+p{
+font-size: 1 6px;
+line-height: 1 . 6;
+}
+h1 {
+font-size: 2 4px;
+color: #0 0 3 3 6 6 ;
+text-align: center;
+}
+
+
+img{	
+display: flex;
+flex-wrap: wrap;
+gap:1 5px; 
+	justify-content: space-between;	
+max-width: 1 0 0%;
+height: auto;
+margin: 0 auto;
+border-radius: 1 0px;
+transition: transform 0 . 3s ease,
+box-shadow 0 .3s ease;	
+}
+
+select{
+width: 1 0 0%;
+padding: 1 0px;
+font-size: 1 6px;
+border: 2px solid #ccc;
+border-radius: 5px;
+background-color: #f 8 f 8 f 8;
+margin-top: 5px;
+margin-bottom: 1 5px;
+}
+select:focus{
+border-color: #4CAF 5 0;
+outline: none;
+background-color: #f f f;
+}
+button{
+background-color: blue;
+color:white;
+padding:1 0px 2 0px;
+border: none;
+border-radius: 5px;
+font-size: 1 6px;
+cursor: pointer;
+transition: background-color 0 .3s ease;
+}
+button: hover{
+background-color: #0 0 5 6 b 3;
+}
+.intrument{
+	border: 1px solid #0 0 0;
+	padding: 1 0px;
+	width: 30%;
+	margin: 1 0px;
+	border-radius: 8px;
+	background-color: #f0f8ff;
+	transition:background-color 0 .3s ease;
+}
+.instrument:hover{
+	background-color: #d0 e8ff;/*light blue on hover*/
+	transform: scale(1.02);/*slight zoom effect*/
+	box-shadow: 0 0 1 0px rgba(0 , 0 , 0 , 0 . 2);/*shadow on hover*/
+}
+.instrument-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap:1 5px; 
+	justify-content: space-between;
+}
+.clothing-grid{
+	direction: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 30px;
+	padding:  40px;
+	max-width:  1200px;
+	margin:  auto;
+}
+
+.item:hover {
+	transform: translate(-5px);
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.item img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.image-container {
+padding: 0;
+height: auto;
+margin: 0;
+border: none;
+text-align: center;
+border-radius: 1 0px
+overflow:hidden;
+background-color: white;
+box-shadow: 0 2px 5px
+rgba(0,0,0,0.2);
+transition: transform 0.3s ease;	
+}
+.image-container img{
+width: 100%;
+height: 200px;
+object-fit: contain;
+border-radius: 10px;
+}
+.image-container:hover{
+	transform: scale(1.05);
+}
+.container, .image-box{
+	margin: 0;
+	padding: 0;
+}
